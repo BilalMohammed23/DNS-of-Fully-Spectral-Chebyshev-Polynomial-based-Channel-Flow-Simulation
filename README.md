@@ -1,8 +1,7 @@
-# Fully-Spectral-Chebyshev-Polynomial-based-Channel-Flow-DNS
-Developed a Fourier–Chebyshev spectral solver for incompressible channel flow by discretizing the Navier–Stokes equations with Fourier modes in the streamwise direction and Chebyshev polynomials in wall-normal direction, implementing pressure–velocity coupling strategy and Pseudo-Spectral method implementation in MATLAB.
+# Advection --> 3D Pressure Poisson Equation --> Channel Flow Solver
 
-# **Still working on the writing part.. Hopefully will finish it soon. 
+This project develops a fully spectral incompressible channel-flow solver by progressing from scalar advection, to a three-dimensional pressure Poisson formulation, and finally to a coupled pressure–momentum channel-flow DNS framework. The solver uses Fourier discretization in the periodic streamwise direction and Chebyshev polynomial expansion in the wall-normal direction to resolve velocity and pressure fields with high spectral accuracy.
 
-To run the code, Open MATLAB,Keep all files in the same folder, Run main.m
+The final channel-flow formulation advances the incompressible Navier–Stokes equations using explicit treatment of nonlinear terms and implicit treatment of viscous terms, while enforcing continuity and wall boundary conditions through a coupled pressure–momentum approach.
 
-Input parameters are made simple just N and Reynold's number. If you wanna increase the Reynolds ' number, then it's recommended to increase the grid size as well.
+All 3 different solvers have been documented with code implemented in MATLAB.
