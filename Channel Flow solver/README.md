@@ -406,7 +406,7 @@ main_ChannelFlow.m
 
 All results are for $Re = 100$, $N_x = 32$.
 
-### Velocity Contour
+### Fully Developed Velocity Profile
 
 <p align="center">
   <img src="Results/velocity_contour_w.png" width="500"/>
