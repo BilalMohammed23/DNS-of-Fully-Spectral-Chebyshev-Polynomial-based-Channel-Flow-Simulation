@@ -289,7 +289,7 @@ main_PPE.m
 Pressure slice at the $z$-midplane, showing the reconstructed pressure field from the manufactured solution test case $P = (1-y^2)\cos(x)$.
 
 <p align="center">
-  <img src="Results/3D_Pressure_Poisson_solver.png" width="500"/>
+  <img src="Results/3D_Pressure_Poisson_solver_w.png" width="500"/>
 </p>
 
 > The spectral method recovers the smooth pressure field with exponential accuracy. The Fourier–Chebyshev approach is exact for smooth periodic-in-$x$, $z$ and non-periodic-in-$y$ problems, consistent with the channel flow geometry.
