@@ -261,7 +261,9 @@ main_advection.m
 
 The Gaussian pulse initialised at $x_0 = -0.3$ advects rightward with speed $c = 1$ over time $T = 1$, arriving near $x \approx 0.7$.
 
-![Advection result — Gaussian pulse at T=0 and T=1](Results/advection_ChebyPolyn.png)
+<p align="center">
+  <img src="Results/advection_ChebyPolyn.png" width="500"/>
+</p>
 
 > The inflow BC $u(-1, t) = 0$ is enforced at every RK4 stage via the tau method. The pulse shape is well-preserved with minimal dissipation, consistent with the spectral accuracy of the Chebyshev method.
 
