@@ -10,7 +10,7 @@
 4. [Chebyshev Expansion in y](#4-chebyshev-expansion-in-y)
 5. [Reducing to a 1D ODE per Fourier Mode](#5-reducing-to-a-1d-ode-per-fourier-mode)
 6. [Expressing Second Derivatives — Coefficient Recursions](#6-expressing-second-derivatives--coefficient-recursions)
-7. [Eliminating $b_n$ and $d_n$ — The Tridiagonal System for $a_n$](#7-eliminating-bn-and-dn--the-tridiagonal-system-for-an)
+7. [Eliminating bₙ and dₙ — The Tridiagonal System for aₙ](#7-eliminating-bn-and-dn--the-tridiagonal-system-for-an)
 8. [Even–Odd Decoupling](#8-evenodd-decoupling)
 9. [Boundary Condition Enforcement — Tau Method](#9-boundary-condition-enforcement--tau-method)
 10. [Algorithm — Full Solution Procedure](#10-algorithm--full-solution-procedure)
