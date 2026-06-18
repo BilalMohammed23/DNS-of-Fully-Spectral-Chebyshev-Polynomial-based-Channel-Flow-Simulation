@@ -156,7 +156,10 @@ After eliminating $b_n$ and $d_n$ analytically, the system for $a_n$ takes the b
 
 $$\mathbf{M}_1 \, \mathbf{a} = \mathbf{M}_2$$
 
-where $\mathbf{M}_1$ is a **tridiagonal matrix** (with entries coupling $a_{n-2}$, $a_n$, $a_{n+2}$ on sub-, main, and super-diagonal respectively) and $\mathbf{M}_2$ is the RHS vector built from $q_n$ and the boundary values.
+where $\mathbf{M}\_1$ is a **tridiagonal matrix** (with entries coupling 
+$a\_{n-2}$, $a\_n$, $a\_{n+2}$ on sub-, main, and super-diagonal 
+respectively) and $\mathbf{M}\_2$ is the RHS vector built from $q\_n$ 
+and the boundary values.
 
 A representative $16\times16$ example of the even-mode matrix has the structure:
 
