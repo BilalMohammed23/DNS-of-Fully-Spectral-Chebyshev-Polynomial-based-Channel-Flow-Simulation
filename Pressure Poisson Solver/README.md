@@ -292,7 +292,7 @@ Pressure slice at the $z$-midplane, showing the reconstructed pressure field fro
   <img src="Results/3D_Pressure_Poisson_solver_w.png" width="500"/>
 </p>
 
-> The spectral method recovers the smooth pressure field with exponential accuracy. The Fourier–Chebyshev approach is exact for smooth periodic-in-$x$, $z$ and non-periodic-in-$y$ problems, consistent with the channel flow geometry.
+> The spectral method recovers the smooth pressure field with exponential accuracy. The Fourier–Chebyshev approach is exact for smooth periodic-in x, z and non-periodic-in-y problems, consistent with the channel flow geometry.
 
 ---
 
