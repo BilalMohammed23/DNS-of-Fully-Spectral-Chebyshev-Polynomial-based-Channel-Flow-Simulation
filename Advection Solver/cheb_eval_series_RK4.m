@@ -1,14 +1,8 @@
 function u = cheb_eval_series_RK4(a, x)
-    % a: 1x(N+1) or (N+1)x1, coefficients a0..aN
-    % x: vector of points in [-1,1]
     a = a(:).';                 % row
     N = length(a)-1;
 
     T0 = ones(size(x));
-    % if N==0
-    %     u = a(1)*T0;
-    %     return
-    % end
     T1 = x;
 
     u = a(1)*T0 + a(2)*T1;
